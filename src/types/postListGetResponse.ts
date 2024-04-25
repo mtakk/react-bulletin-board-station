@@ -1,7 +1,7 @@
 export type postListGetResponse = {
-    threadId: string;
-    posts: Array<{
-        id: string;
-        post: string;
-    }>;
-}
+  threadId: string;
+  posts: Array<{
+    id: string;
+    post: string;
+  }>;
+};

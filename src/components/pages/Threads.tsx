@@ -1,4 +1,4 @@
-import { MouseEventHandler, useCallback, useEffect } from "react";
+import { useEffect } from "react";
 import { useAllThreads } from "../../hooks/useAllThreads";
 import { useNavigate } from "react-router-dom";
 

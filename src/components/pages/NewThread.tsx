@@ -47,10 +47,7 @@ export const NewThread = () => {
             )}
           />
           <div className="flex justify-between">
-            <a
-              className=" text-blue-600 underline m-2"
-              onClick={onClickToTop}
-            >
+            <a className=" text-blue-600 underline m-2" onClick={onClickToTop}>
               TOPに戻る
             </a>
             <button

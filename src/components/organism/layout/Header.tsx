@@ -15,7 +15,9 @@ export const Header: FC<Props> = (props) => {
     <>
       <header className=" bg-green-400 text-white">
         <nav className="flex justify-between container mx-auto items-center p-4">
-          <div className=" text-xl" onClick={onClickToTop}>掲示板</div>
+          <div className=" text-xl" onClick={onClickToTop}>
+            掲示板
+          </div>
           <a className="underline text-xs" onClick={onClickNewThread}>
             スレッドをたてる
           </a>
